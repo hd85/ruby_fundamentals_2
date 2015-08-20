@@ -29,8 +29,8 @@ output_list(grocery_list)
 
 # 2
 
-grocery_list.push ("rice") # not sure how to display rice with an asterisk
-
+grocery_list.push ("rice")
+output_list(grocery_list)
 
 # 3
 
@@ -55,3 +55,9 @@ puts grocery_list[1]
 
 output_list(grocery_list.sort)
 
+
+# 7
+
+grocery_list.delete ("salmon")
+
+output_list(grocery_list)
