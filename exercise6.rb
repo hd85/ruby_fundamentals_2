@@ -45,4 +45,8 @@ else
   puts "You don't need to pick up bananas today"
 end
 
+# 5
+
+puts grocery_list[1]
+
 
